@@ -1,9 +1,11 @@
 # Really dumb package to generate name combinations and have it speak to you.
-No seriously, its super stupid and I made it in like 15 minutes.
+No seriously, its super stupid. I made the core functionality in under 30 minutes, then spent a few hours making it presentable (for fun).
 ## Context
 I wanted to create similar-vibe names for my girlfriend and I to use for the upcoming Monster Hunter Wilds release.
 ## Requirements
-- [Nix Package Manager]
+- [Nix Package Manager](https://nixos.org/download/)
+    - It is heavily recommended to follow the 'Multi-user installation' version.
+    - Note that NixOS != Nix (package manager). You can be on ubuntu, arch, whatever--as long as you have the `nix` package you can run this.
 - [Devenv](https://devenv.sh/)
 - [Direnv](https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=direnv) (Optional but recommended)
     - This just automatically runs `devenv` when you enter a directory with `direnv` and `devenv` resources. very useful.
