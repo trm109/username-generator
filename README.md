@@ -9,6 +9,10 @@ I wanted to create similar-vibe names for my girlfriend and I to use for the upc
 - [Devenv](https://devenv.sh/)
 - [Direnv](https://search.nixos.org/options?channel=unstable&from=0&size=50&sort=relevance&type=packages&query=direnv) (Optional but recommended)
     - This just automatically runs `devenv` when you enter a directory with `direnv` and `devenv` resources. very useful.
+### Alternative requirements if you can't/won't install the nix pkg manager.
+- Piper tts
+- Python
+- python argparse
 ## Resources/Folder structure
 - `model/`: tts voice model stuff. rename the model `.onnx` file to `tts.onnx`, and the config `.onnx.json` to `tts.onnx.json`
 - `input/`: Contains `first_names.txt`, `last_names.txt`, and `greetings.txt`
