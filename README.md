@@ -22,6 +22,9 @@ I wanted to create similar-vibe names for my girlfriend and I to use for the upc
 1. Modify your first names, last names, and greetings in the `input/` folder
 2. Download your preferred model AND config. You can find these [here](https://github.com/rhasspy/piper/blob/master/VOICES.md)
 3. Place the files into `input/`, ex; `mv ~/Downloads/en_GB-alan-medium.onnx ./model/tts.onnx && mv ~/Downloads/en_en_GB_alan_medium_en_GB-alan-medium.onnx.json ./model/tts.onnx.json`
-3. Run the provided `generate.sh` file.
+3. Run the provided `gen_txt.sh` file.
     - This will generate all possible combinations of the first & last names, shuffle them, and put them into `output/combinations.txt`
-4. To listen to them, run `listen.sh`
+4. Then generate the audio files: `gen_wav.sh`. 
+5. To listen to them, run `listen.sh`
+    - `listen.sh 50 r` will listen to 50 random names.
+    - `listen.sh 0` will listen to ALL the names in sequential order.
